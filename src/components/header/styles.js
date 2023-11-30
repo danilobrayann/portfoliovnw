@@ -8,6 +8,7 @@ justify-content:space-between;
 align-items:center;
 margin: 0px 80px;
 
+
 h2{
     font-family:Agbalumo;
     color:white;

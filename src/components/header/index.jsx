@@ -24,7 +24,7 @@ export default function Header() {
       <h2>Meu <b>Portfolio</b></h2>
       <ListaNav>
         <li>Inicio</li>
-        <li>Sobre</li>
+        <li >Sobre</li>
         <li>Projetos</li>
         <li>Habilidades</li>
         <li>Contatos</li>
