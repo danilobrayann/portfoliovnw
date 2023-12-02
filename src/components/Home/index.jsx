@@ -28,7 +28,7 @@ export default function Home() {
 
 
     return (
-        <HomeSection>
+        <HomeSection id='inicio'>
             <Social>
                 <a href="https://github.com/danilobrayann" target="_blank"><i class='bx bxl-github'></i></a>
                 <a href="https://api.whatsapp.com/send/?phone=5571996738280&text=ol%C3%A1+tudo+bem%2C+me+chamo+Danilo+e+sou+Desenvolvedor&type=phone_number&app_absent=0" target="_blank"><i class='bx bxl-whatsapp'></i></a>

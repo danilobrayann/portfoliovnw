@@ -1,33 +1,20 @@
-import { useEffect } from 'react';
-import ScrollReveal from 'scrollreveal';
-import { Nav, ListaNav } from './styles';
+
+import { Nav, ListaNav,A } from './styles';
 
 export default function Header() {
-  useEffect(() => {
-    
-    ScrollReveal({ 
-      reset: true,
-      distance: '100px',
-      duration: 3000,
-      delay: 300
-    });
-
-   
-    ScrollReveal().reveal('nav, h2, li, ul', { origin: 'left' });
-
-   
-    return () => ScrollReveal().destroy();
-  }, []); 
+ 
 
   return (
     <Nav>
-      <h2>Meu <b>Portfolio</b></h2>
-      <ListaNav>
-        <li>Inicio</li>
-        <li >Sobre</li>
-        <li>Projetos</li>
-        <li>Habilidades</li>
-        <li>Contatos</li>
+      <h2 href='#inicio' >Meu <b>Portfolio</b></h2>
+      
+      <ListaNav >
+        <A href='#'>Inicio</A>
+        <A href="#sobre" >Sobre</A>
+        <A href='#projetos'>Projetos</A>
+        <A>Habilidades</A>
+        <A>Contatos</A>
+      
       </ListaNav>
     </Nav>
   );

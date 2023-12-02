@@ -28,7 +28,7 @@ export default function Sobre() {
 
 
     return (
-        <SobreSection >
+        <SobreSection id='sobre' >
             <DivImagem>
                 <img src={Eu} alt="foto" />
             </DivImagem>
