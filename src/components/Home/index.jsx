@@ -18,7 +18,7 @@ export default function Home() {
     
        
         ScrollReveal().reveal('h3,h1', { origin: 'top' });
-        ScrollReveal().reveal('img,a,p', { origin: 'left' });
+        ScrollReveal().reveal('a,p', { origin: 'left' });
     
        
         return () => ScrollReveal().destroy();

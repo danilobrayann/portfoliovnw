@@ -2,6 +2,7 @@ import Carrosel from "../carrosel";
 import { SectionProjetos } from "./styles";
 import iphone from "../../img/iphone13.png";
 import Hambuguer from '../../img/hamburguer.png'
+import cadastro from '../../img/Cadastro.png'
 import { DivImg,DivIcon,Divh2 } from "./styles";
 import { useEffect } from 'react';
 import ScrollReveal from 'scrollreveal';
@@ -18,7 +19,7 @@ export default function Projetos() {
 
    
     ScrollReveal().reveal('h3,span,i', { origin: 'top' });
-    ScrollReveal().reveal('img,a', { origin: 'bottom' });
+    ScrollReveal().reveal('a', { origin: 'bottom' });
 
    
     return () => ScrollReveal().destroy();
@@ -70,7 +71,7 @@ export default function Projetos() {
 
 
           <div>
-            <img src={iphone} alt="" />
+            <img src={cadastro} alt="" />
             <DivIcon >
               <a
                 href="https://github.com/danilobrayann/hamburguerDelivery"

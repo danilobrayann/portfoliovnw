@@ -10,7 +10,7 @@ height:100vh;
 
 export const Social = styled.div`
 display:flex;
-flex-direction:column;
+flex-direction: column ;
 
 height:35vh;
 gap:15px;

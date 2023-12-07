@@ -17,7 +17,7 @@ export default function Sobre() {
     
        
         ScrollReveal().reveal('h3,h1,span', { origin: 'right' });
-        ScrollReveal().reveal('img,a,p', { origin: 'left' });
+        ScrollReveal().reveal('a,p', { origin: 'left' });
     
        
         return () => ScrollReveal().destroy();
